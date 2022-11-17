@@ -1,2 +1,2 @@
 
-json.array!(@posts)
+json.posts @posts, :id, :content, :user
